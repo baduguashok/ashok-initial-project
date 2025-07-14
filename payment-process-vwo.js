@@ -1,11 +1,11 @@
 /*vwo script starts here*/
 
-// Get the element 
+// Get the element Ashok asd
 const getNumericAmount = (el) => {
   if (!el) return 0;
   const text = el.textContent.trim(); // e.g. "$160"
   const number = parseFloat(text.replace(/[^0-9.]/g, '')); // → 160
-  return isNaN(number) ? 0 : number;
+  //return isNaN(number) ? 0 : number;
 };
 
 // Get DOM elements
